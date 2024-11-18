@@ -1,7 +1,7 @@
 const express = require('express')
 const {
     promptTrigger
-} = require('../controller/aiController');
+} = require('../controllers/aiController');
 
 const router = express.Router();
 
