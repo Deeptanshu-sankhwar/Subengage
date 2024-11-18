@@ -5,8 +5,10 @@ const dotenv = require('dotenv');
 const helmet = require('helmet');
 const morgan = require('morgan');
 
+const aiRoutes = require('./routes/aiRoutes')
+
 // load environment variables
-dotenv.conig()
+dotenv.config()
 
 const app = express();
 
