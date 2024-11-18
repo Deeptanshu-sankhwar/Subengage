@@ -36,6 +36,9 @@ mongoose
         process.exit(1);
     });
 
+// add routes
+app.use('/api/v1/prompt', aiRoutes)
+
 // start server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
